@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renesans - Notatki do Sprawdzianu</title>
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --card-bg: #1b1b1b;
+            --text-main: #ffffff;
+            --text-muted: #999999;
+            --accent: #ffa31a;
+            --hover: #ffb74d;
+            --border-radius: 4px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-bottom: 2px solid var(--accent);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header span {
+            color: var(--accent);
+            background-color: #000;
+            padding: 2px 10px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: var(--text-main);
+            border-left: 5px solid var(--accent);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: var(--accent);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        h4 {
+            color: var(--text-muted);
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #ddd;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            color: #ddd;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-main);
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: var(--accent);
+        }
+
+        .definition-box {
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: var(--border-radius);
+            border-left: 3px solid var(--accent);
+            margin-bottom: 15px;
+        }
+
+        .song-analysis {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .song-analysis {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .song-card {
+            background-color: #252525;
+            padding: 15px;
+            border-radius: var(--border-radius);
+        }
+
+        .matura-section {
+            border: 1px solid var(--accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Renesans <span>Notatki</span></h1>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- 1. POJĘCIA WSTĘPNE -->
+        <section id="pojecia">
+            <h2>1. Pojęcia Wstępne</h2>
+            
+            <div class="definition-box">
+                <h3>Humanizm</h3>
+                <p>Prąd umysłowy i kulturalny renesansu, stawiający w centrum zainteresowania <strong>człowieka</strong>, jego potrzeby, możliwości, godność i rozwój. Hasłem humanistów stały się słowa Terencjusza: <em>"Człowiekiem jestem i nic, co ludzkie, nie jest mi obce"</em>. Humanizm postulował powrót do źródeł starożytnych (ad fontes) i harmonijny rozwój jednostki.</p>
+            </div>
+
+            <div class="definition-box">
+                <h3>Antropocentryzm</h3>
+                <p>Pogląd filozoficzny i religijny, według którego <strong>człowiek jest ośrodkiem i celem wszechświata</strong>. W renesansie oznaczało to przesunięcie uwagi z Boga (teocentryzm średniowieczny) na człowieka, jego życie doczesne, emocje i rozum.</p>
+            </div>
+        </section>
+
+        <!-- 2. JAN KOCHANOWSKI -->
+        <section id="kochanowski">
+            <h2>2. Jan Kochanowski</h2>
+
+            <h3>Gatunki Literackie</h3>
+            <ul>
+                <li><strong>Fraszka:</strong> Krótki utwór wierszowany, często o charakterze żartobliwym, satyrycznym lub refleksyjnym. Nazwa pochodzi z wł. <em>frasca</em> (gałązka, drobiazg). Kochanowski w "Fraszkach" poruszał tematy błahe i poważne, tworząc swoisty pamiętnik liryczny.</li>
+                <li><strong>Pieśń:</strong> Najstarszy gatunek liryki, wywodzący się z muzyki. Cechuje się budową stroficzną, rytmicznością, występowaniem refrenów i powtórzeń. Tematyka może być różnorodna: filozoficzna, miłosna, biesiadna, patriotyczna.</li>
+                <li><strong>Tren:</strong> Utwór liryczny o charakterze żałobnym, poświęcony zmarłej osobie, wyrażający żal i smutek oraz wychwalający zalety zmarłego. Cykl "Trenów" Kochanowskiego jest wyjątkowy, bo poświęcony dziecku (Urszulce), a nie – jak nakazywała tradycja – wybitnej osobistości.</li>
+            </ul>
+
+            <h3>Opracowanie Pieśni</h3>
+            <div class="song-analysis">
+                <div class="song-card">
+                    <h4>a) Pieśń Filozoficzna</h4>
+                    <p><strong>Pieśń IX, Księgi pierwsze ("Chcemy sobie być radzi...")</strong></p>
+                    <p>Utwór jest manifestem renesansowego światopoglądu łączącego <strong>stoicyzm</strong> i <strong>epikureizm</strong>. Poeta zachęca do zabawy ("Chcemy sobie być radzi"), ale przypomina o zmienności losu (Fortuna kołem się toczy). Zaleca zachowanie "równego umysłu" (stoicki spokój) zarówno w szczęściu, jak i nieszczęściu, ufając Bogu.</p>
+                </div>
+                
+                <div class="song-card">
+                    <h4>b) Pieśń Patriotyczna</h4>
+                    <p><strong>Pieśń V, Księgi wtóre ("O spustoszeniu Podola")</strong></p>
+                    <p>Reakcja na napad Tatarów na Podole w 1575 r. Kochanowski krytykuje szlachtę za bierność i przedkładanie prywaty nad dobro kraju. Używa ostrej ironii, nazywając Polaków "nową przypowieścią", że są głupi nawet po szkodzie. Wzywa do opodatkowania się na wojsko i obrony ojczyzny.</p>
+                </div>
+
+                <div class="song-card">
+                    <h4>c) Pieśń Religijna</h4>
+                    <p><strong>Pieśń XXV, Księgi wtóre ("Czego chcesz od nas, Panie...")</strong></p>
+                    <p>Hymn do Boga-Artysty (Deus Artifex). Bóg jest przedstawiony jako stwórca pięknego, harmonijnego świata, a nie surowy sędzia. Utwór afirmuje świat widzialny, podkreśla ład natury i dobroć Stwórcy. Jest to wyraz renesansowego optymizmu i ufności.</p>
+                </div>
+
+                <div class="song-card">
+                    <h4>d) Pieśń Autobiograficzna</h4>
+                    <p><strong>Pieśń XXIV, Księgi wtóre ("Niezwykłym i nie leda piórem...")</strong></p>
+                    <p>Parafraza ody Horacego "Exegi monumentum". Poeta przedstawia się jako jednostka wybitna, "ptak-poeta", który dzięki swojej twórczości zyska nieśmiertelność i sławę na całym świecie (motyw <em>non omnis moriar</em> - nie wszystek umrę). Wyraża dumę z własnego talentu.</p>
+                </div>
+            </div>
+
+            <h3>Treny</h3>
+            <ul>
+                <li><strong>Geneza:</strong> Powstały po śmierci ukochanej córki poety, Urszulki (ok. 1579 r.). Są wyrazem ojcowskiego bólu i kryzysu światopoglądowego wielkiego humanisty.</li>
+                <li><strong>Kompozycja cyklu (19 utworów):</strong> Odzwierciedla etapy żałoby.
+                    <ol>
+                        <li>Wstęp i pochwała zmarłej.</li>
+                        <li>Narastanie bólu i buntu.</li>
+                        <li>Kulminacja (Treny IX-XI) – załamanie wiary i rozumu.</li>
+                        <li>Uciszenie i ukojenie (Tren XIX – Sen).</li>
+                    </ol>
+                </li>
+            </ul>
+
+            <div class="definition-box">
+                <h4>Analiza wybranych Trenów (Kryzys światopoglądowy)</h4>
+                <p><strong>Tren IX ("Kupić by cię, Mądrości..."):</strong> Ironiczny rozrachunek ze stoicyzmem. Poeta całe życie dążył do mądrości, która miała chronić przed bólem, ale w obliczu tragedii okazała się bezużyteczna. Kochanowski czuje się zrzucony ze "stopni ostatnich" mądrości między prostych ludzi.</p>
+                <p><strong>Tren X ("Orszulo moja, gdzieś mi się podziała?"):</strong> Dramatyczne poszukiwanie córki w zaświatach. Poeta wymienia różne wizje raju (chrześcijański, mitologiczny, reinkarnacja), by na końcu zwątpić w istnienie życia po śmierci ("Gdzieśkolwiek jest, jeśliś jest..."). Szczytowy moment kryzysu religijnego.</p>
+                <p><strong>Tren XI ("Fraszka cnota!"):</strong> Zakwestionowanie wartości moralnych. "Fraszka cnota" – cnota to błahostka, nic nieznaczący drobiazg. Poeta zauważa, że bycie dobrym i pobożnym nie chroni przed nieszczęściem ("Nieznajomy wróg jakiś miesza ludzkie rzeczy"). Światem rządzi chaos lub złe fatum.</p>
+            </div>
+        </section>
+
+        <!-- 3. WILLIAM SZEKSPIR - MAKBET -->
+        <section id="szekspir">
+            <h2>3. William Szekspir - "Makbet"</h2>
+            
+            <h3>Streszczenie</h3>
+            <p>Makbet, waleczny wódz szkocki, słyszy przepowiednię czarownic, że zostanie królem. Pod wpływem ambicji i namów żony (Lady Makbet), zabija króla Duncana i przejmuje tron. Zbrodnia pociąga za sobą kolejne (zabójstwo Banka, rodziny Makdufa). Makbet zmienia się w krwawego tyrana. Dręczą go wyrzuty sumienia i strach. Lady Makbet popada w obłęd i popełnia samobójstwo. Ostatecznie Makbet ginie w pojedynku z Makdufem, a przepowiednia o "lesie podchodzącym pod zamek" spełnia się w przewrotny sposób.</p>
+
+            <h3>Cechy dramatu szekspirowskiego</h3>
+            <ul>
+                <li><strong>Złamanie zasady trzech jedności:</strong> Akcja toczy się w wielu miejscach (Szkocja, Anglia) i trwa wiele lat.</li>
+                <li><strong>Złamanie zasady decorum:</strong> Sceny tragiczne przeplatają się z komicznymi (np. scena z Odźwiernym), język podniosły miesza się z potocznym.</li>
+                <li><strong>Sceny zbiorowe i drastyczne:</strong> Morderstwa i walki pokazywane są bezpośrednio na scenie.</li>
+                <li><strong>Świat fantastyczny:</strong> Obecność wiedźm, duchów (duch Banka), zjaw – ingerencja sił nadprzyrodzonych w świat ludzi.</li>
+                <li><strong>Pogłębiony psychologizm:</strong> Skupienie na wewnętrznych przeżyciach, motywacjach i przemianie bohatera.</li>
+            </ul>
+
+            <h3>Tragizm: Antyk vs Szekspir</h3>
+            <div class="song-analysis">
+                <div class="song-card">
+                    <h4>Tragedia Antyczna (Fatum)</h4>
+                    <p>O losie bohatera decyduje <strong>Fatum</strong> (przeznaczenie), od którego nie ma ucieczki (np. Edyp). Bohater jest niewinny w swoich intencjach, ale skazany na klęskę przez siły wyższe. Konflikt tragiczny to zderzenie równorzędnych racji.</p>
+                </div>
+                <div class="song-card">
+                    <h4>Tragedia Szekspirowska (Charakter)</h4>
+                    <p>O losie bohatera decydują jego <strong>własne decyzje, namiętności i ambicje</strong> ("Charakter jest przeznaczeniem"). Makbet ma wolną wolę – mógł odrzucić przepowiednię, ale wybrał zło. Tragizm wynika z psychologii postaci i konsekwencji moralnych jej czynów.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MATURA JAWNA -->
+        <section id="matura" class="matura-section">
+            <h2><span class="highlight">MATURA 2026</span> - Pytania Jawne (Makbet)</h2>
+            <p>Poniżej znajdują się opracowania oficjalnych pytań jawnych do części ustnej egzaminu maturalnego, dotyczących "Makbeta".</p>
+
+            <div class="definition-box">
+                <h3>1. Moralna odpowiedzialność za czyny</h3>
+                <p><strong>Teza:</strong> Każdy czyn pociąga za sobą konsekwencje, a człowiek ponosi pełną odpowiedzialność moralną za swoje wybory, nawet jeśli działał pod wpływem presji.</p>
+                <p><strong>Argumentacja (Makbet):</strong> Makbet świadomie wybiera zło. Mimo przepowiedni i namów żony, to on zadaje cios. Jego odpowiedzialność objawia się w:</p>
+                <ul>
+                    <li><strong>Wyrzutach sumienia:</strong> Halucynacje (sztylet, duch Banka), bezsenność ("Makbet zabił sen").</li>
+                    <li><strong>Degradacji moralnej:</strong> Z rycerza staje się tyranem, traci szacunek do samego siebie i sensu życia ("Życie jest tylko przechodnim półcieniem").</li>
+                    <li><strong>Karze:</strong> Śmierć i hańba są konsekwencją jego wyborów.</li>
+                </ul>
+            </div>
+
+            <div class="definition-box">
+                <h3>2. Czy człowiek decyduje o własnym losie?</h3>
+                <p><strong>Teza:</strong> Człowiek posiada wolną wolę i to on ostatecznie kształtuje swój los, choć zewnętrzne okoliczności mogą go kusić.</p>
+                <p><strong>Argumentacja (Makbet):</strong></p>
+                <ul>
+                    <li>Przepowiednia czarownic była tylko <strong>sugestią</strong>, impulsem. Nie zmusiła Makbeta do zbrodni (Banko też słyszał przepowiednię, ale nie zszedł na drogę zła).</li>
+                    <li>Makbet toczy wewnętrzną walkę przed zabójstwem Duncana, co dowodzi, że miał wybór.</li>
+                    <li>Decyzja o morderstwie była aktem wolnej woli, podyktowanym chorą ambicją ("Nie mam ostrogi, by bodła boki moich zamiarów, poza ambicją").</li>
+                </ul>
+            </div>
+
+            <div class="definition-box">
+                <h3>3. Jaki wpływ na człowieka ma sprawowanie przez niego władzy?</h3>
+                <p><strong>Teza:</strong> Władza zdobyta niegodziwie i sprawowana bez moralnych zasad niszczy człowieka, prowadząc do tyranii i samotności.</p>
+                <p><strong>Argumentacja (Makbet):</strong></p>
+                <ul>
+                    <li><strong>Władza jako lęk:</strong> Makbet, zdobywszy koronę, nie cieszy się nią. Żyje w ciągłym strachu przed utratą władzy, co popycha go do kolejnych zbrodni (łańcuch zła).</li>
+                    <li><strong>Izolacja:</strong> Władza absolutna izoluje go od ludzi (traci przyjaciół, żonę, poddanych).</li>
+                    <li><strong>Tyrania:</strong> Władza zmienia szlachetnego wodza w krwawego despotę, którego nienawidzi cały naród. Szekspir pokazuje mechanizm niszczącej siły nieograniczonej ambicji politycznej.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Notatki Maturalne - Renesans. Powodzenia na sprawdzianie!
+    </footer>
+
+</body>
+</html>
